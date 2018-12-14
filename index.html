@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dog to human years calculator</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="text-center">Dog to Human Age Calculator</h1>
+            <p>This is a finely tuned and accurate scientific tool.  The creator of this website refuses to accept any liability for wrongful usage of this information, however accurate it may be.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                <form id="dogForm">
+                    <div class="form-group">
+                        <label for="dogAge">Enter your dogs age in years: </label>
+                        <input class="form-control" name="dogAge" id="dogAge" type="text" val="0">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Let's do this thing!</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="row">
+            
+            <div id="output" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <h1 class="text-center" id="h1-output"></h1>
+                <img src="#" id="img-output" class="img-responsive center-block" alt="Doge">
+            </div>
+            
+        </div>
+        
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Secret dog calculations -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
